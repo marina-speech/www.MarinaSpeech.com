@@ -23,9 +23,8 @@ var a_skype_address = 'Marina.Narubin';
 var a_skype_url = 'skype:' + a_skype_address;
 
 var a_email_address = 'Marina.Narubin@gmail.com';
-var a_email_subject = 'MarinaSpeech%20Consultation';
-var a_email_message = 'Please%20call%20us%20back%20at%20...';
+var a_email_subject = 'MarinaSpeech-Consultation';
 var a_email_url = 'mailto:' + a_email_address + '?' + "subject="
-		+ a_email_subject + '&' + 'body=' + a_email_message;
+		+ a_email_subject;
 
 var a_online_url = 'https://docs.google.com/forms/d/1MLcNg3Z7TQT8i-xvqYq-jYmCljkxvLSgIxPnR6uanaM/viewform';
