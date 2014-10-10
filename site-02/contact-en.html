@@ -2,59 +2,69 @@
 <html>
 <head>
 
-<link rel="stylesheet" href="css/main.css" type="text/css" />
-<link rel="icon" href="images/favicon.ico" type="image/ico" />
+<script src="index.js"></script>
 
 <meta charset="utf-8" />
 <meta name="keywords"
-	content="logopedist, chicago, russian, marinaspeech, marina, speech, therapy, speech therapy, russian language speech therapy, free, consultation, free consultation" />
-<meta name="description"
-	content="Russian Logopedist - Russian Language Speech Therapy for Kids in Chicago" />
+	content="logopedist, chicago, russian, marinaspeech, marina, speech, therapy, speech therapy, russian language speech therapy, free, consultation, free consultation"
+/>
+<meta name="description" content="Russian Logopedist - Russian Language Speech Therapy for Kids in Chicago" />
 
 <title>MarinaSpeech - Russian Logopedist</title>
 
 </head>
-<body id="index" class="home">
+<body>
 
-	<header id="banner" class="body">
-		<nav id="navigator">
-			<ul>
-				<li><a href="home-en.html">Home</a></li>
-				<li><a href="about-en.html">About</a></li>
-				<li><a href="services-en.html">Services</a></li>
-				<li><a href="testimonials-en.html">Testimonials</a></li>
-				<li><a href="materials-en.html">Materials</a></li>
-				<li class="active"><a href="contact-en.html">Contact</a></li>
-			</ul>
-		</nav>
-		<nav id="language">
-			<ul>
-				<li class="active"><a href="contact-en.html">English</a></li>
-				<li><a href="contact-ru.html">Русский</a></li>
-			</ul>
-		</nav>
-	</header>
+	<div id='header-en' class='header'></div>
 
-	<section id="register" class="body">
-		<article id="featured">
-			<h1>Email</h1>
-		</article>
-		<article id="featured">
-			<h1>Skype</h1>
-		</article>
-		<article id="featured">
-			<h1>Phone</h1>
-		</article>
-	</section>
+	<div class='container'>
 
-	<section id="register" class="body">
-		<article id="featured">
-			<h1>Free Consultation</h1>
-			<a
-				href="https://docs.google.com/forms/d/1MLcNg3Z7TQT8i-xvqYq-jYmCljkxvLSgIxPnR6uanaM/viewform">
-				Register for a Free Consultation!</a>
-		</article>
-	</section>
+		<h3>Get in touch with us:</h3>
+
+		<div class="media">
+			<img class="media-object pull-left" src="img/call-start.png" width='32'>
+			<div class="media-body">
+				<h4 class="media-heading">Phone Call</h4>
+				<a id='anchor-phone' class='btn' role='button' href='#'>#</a>
+			</div>
+		</div>
+		<div class="media">
+			<img class="media-object pull-left" src="img/skype-2.png" width='32'>
+			<div class="media-body">
+				<h4 class="media-heading">Skype Call</h4>
+				<a id='anchor-skype' class='btn' role='button' href='#'>#</a>
+			</div>
+		</div>
+		<div class="media">
+			<img class="media-object pull-left" src="img/mail-forward-5.png" width='32'>
+			<div class="media-body">
+				<h4 class="media-heading">Send Email</h4>
+				<a id='anchor-email' class='btn' role='button' href='#'>#</a>
+			</div>
+		</div>
+		<div class="media">
+			<img class="media-object pull-left" src="img/network-wireless-3.png" width='32'>
+			<div class="media-body">
+				<h4 class="media-heading">Register Online</h4>
+				<a id='anchor-online' class='btn' role='button' href='#'>Click and fill out a form.</a>
+			</div>
+		</div>
+
+	</div>
+
+	<div id='footer-en' class='footer'></div>
+
+	<script>
+		$(document).ready(function() {
+			$('#anchor-phone').text(a_phone_number);
+			$('#anchor-phone').attr('href', a_phone_url);
+			$('#anchor-skype').text(a_skype_address);
+			$('#anchor-skype').attr('href', a_skype_url);
+			$('#anchor-email').text(a_email_address);
+			$('#anchor-email').attr('href', a_email_url);
+			$('#anchor-online').attr('href', a_online_url);
+		});
+	</script>
 
 </body>
 </html>
