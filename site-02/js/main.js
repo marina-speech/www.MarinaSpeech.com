@@ -26,6 +26,7 @@ var a_email_address = 'Marina.Narubin@gmail.com';
 var a_email_subject = 'MarinaSpeech Consultation';
 var a_email_message = 'Please call us back at ...';
 var a_email_url = 'mailto:' + a_email_address + '?' + "subject="
-		+ a_email_subject + '&' + 'body=' + a_email_message;
+		+ encodeURIComponent(a_email_subject) + '&' + 'body='
+		+ encodeURIComponent(a_email_message);
 
 var a_online_url = 'https://docs.google.com/forms/d/1MLcNg3Z7TQT8i-xvqYq-jYmCljkxvLSgIxPnR6uanaM/viewform';
