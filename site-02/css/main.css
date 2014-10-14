@@ -34,3 +34,9 @@ body {
 .header {
 	height: 100px;
 }
+
+/* Override the bootstrap style */
+.quote {
+    font-size: 16px;
+	border-left: none;
+}
