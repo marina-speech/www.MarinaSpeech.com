@@ -22,7 +22,7 @@ var a_phone_url = 'tel:' + a_phone_number;
 var a_skype_address = 'Marina.Speech';
 var a_skype_url = 'skype:' + a_skype_address;
 
-var a_email_address = 'Marina.Narubin@gmail.com';
+var a_email_address = 'info@MarinaSpeech.com';
 var a_email_subject = 'MarinaSpeech-Consultation';
 var a_email_url = 'mailto:' + a_email_address + '?' + "subject="
 		+ a_email_subject;
