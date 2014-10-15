@@ -8,6 +8,9 @@ html {
 body {
 	/* Margin bottom by footer height */
 	margin-bottom: 60px;
+/* 	background-image: url('../img/stripes-bg.png'); */
+/* 	background-repeat: repeat; */
+/* 	background-position: left top; */
 }
 
 .footer {
@@ -35,8 +38,11 @@ body {
 	height: 100px;
 }
 
-/* Override the bootstrap style */
 .quote {
-    font-size: 16px;
+	font-size: 16px;
 	border-left: none;
+}
+
+.main {
+	background-color: #f5f5f5;
 }
