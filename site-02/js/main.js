@@ -20,7 +20,7 @@ var a_phone_number = '+1-224-678-1608';
 var a_phone_url = 'tel:' + a_phone_number;
 
 var a_skype_address = 'Marina.Speech';
-var a_skype_url = 'skype:' + a_skype_address;
+var a_skype_url = 'skype:' + a_skype_address + '?call';
 
 var a_email_address = 'info@MarinaSpeech.com';
 var a_email_subject = 'MarinaSpeech-Consultation';
