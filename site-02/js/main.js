@@ -16,7 +16,7 @@ $(function() {
 
 //
 
-var a_phone_number = '+1-224-678-1608';
+var a_phone_number = '+1-872-228-5648';
 var a_phone_url = 'tel:' + a_phone_number;
 
 var a_skype_address = 'Marina.Speech';
