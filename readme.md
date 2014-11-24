@@ -4,4 +4,3 @@ web site with
 * index-to-home page redirect
 * css style control
 
-//
