@@ -1,0 +1,72 @@
+<!doctype html>
+<html>
+<head>
+
+<script src="index.js"></script>
+
+<meta charset="utf-8" />
+<meta name='viewport' content='width=device-width, initial-scale=1'>
+
+<meta name="keywords"
+	content="logopedist, chicago, russian, marinaspeech, marina, speech, therapy, speech therapy, russian language speech therapy, free, consultation, free consultation"
+/>
+<meta name="description" content="Russian Logopedist - Russian Language Speech Therapy for Kids in Chicago" />
+
+<title>MarinaSpeech - Russian Logopedist</title>
+
+</head>
+<body>
+
+	<div id='header-en' class='header'></div>
+
+	<div class='container'>
+
+		<h3>Get in touch with us:</h3>
+
+		<div class="media thumbnail">
+			<img class="media-object pull-left" src="img/call-start.png" width='32'>
+			<div class="media-body">
+				<h4 class="media-heading">Phone Call</h4>
+				Click: <a id='anchor-phone' class='btn' role='button' href='#'>#</a>
+			</div>
+		</div>
+		<div class="media thumbnail">
+			<img class="media-object pull-left" src="img/skype-2.png" width='32'>
+			<div class="media-body">
+				<h4 class="media-heading">Skype Call</h4>
+				Click: <a id='anchor-skype' class='btn' role='button' href='#'>#</a>
+			</div>
+		</div>
+		<div class="media thumbnail">
+			<img class="media-object pull-left" src="img/mail-forward-5.png" width='32'>
+			<div class="media-body">
+				<h4 class="media-heading">Send Email</h4>
+				Click: <a id='anchor-email' class='btn' role='button' href='#'>#</a>
+			</div>
+		</div>
+		<div class="media thumbnail">
+			<img class="media-object pull-left" src="img/accessories-text-editor-4.png" width='32'>
+			<div class="media-body">
+				<h4 class="media-heading">Register Online</h4>
+				<a id='anchor-online' class='btn' role='button' href='#'>Click and fill out a form.</a>
+			</div>
+		</div>
+
+	</div>
+
+	<div id='footer-en' class='footer'></div>
+
+	<script>
+		$(document).ready(function() {
+			$('#anchor-phone').text(a_phone_number);
+			$('#anchor-phone').attr('href', a_phone_url);
+			$('#anchor-skype').text(a_skype_address);
+			$('#anchor-skype').attr('href', a_skype_url);
+			$('#anchor-email').text(a_email_address);
+			$('#anchor-email').attr('href', a_email_url);
+			$('#anchor-online').attr('href', a_online_url);
+		});
+	</script>
+
+</body>
+</html>
