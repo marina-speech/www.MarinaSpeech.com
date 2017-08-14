@@ -7,9 +7,11 @@ deploy:
   provider: s3
   access_key_id: AKIAJTYARGTVL6WJVVNQ
   secret_access_key:
-    secure: D8l/rQDCuwVSums/V8mRlOzR0rpvm/Urxjx2CQ/2nJEFs6IG1DUq0jO1bu2hssKPnvHxVZJR+Jq9cAVybh3q5CKfPYPBrEDFNlnvaLkffjtSy43u9YZYCxz5eRtxhW/wMkKHXt7KeyOEoLWdYzLSR9rpW6LQ6AV5JkYReNBY40U=
+    secure: Ojo9ICdUeSVuIm4Y8640UbWPl/oNHkpSBVXgPpQp4Yf/S3uC1velnGynzn2KQfEwrZ9fq6N4B0UFdp1EWDASVPStqIeGNO12c/3JdlY11u1wOruZID8i/VFKMNS/QF5vkJBdAO1vGznEqwvryfvfvSJ1IcRAj4wzaqEnfXgCkns=
   bucket: www.marinaspeech.com
   acl: public_read
+  on:
+    repo: marina-speech/www.MarinaSpeech.com
 branches:
   only:
   - master
