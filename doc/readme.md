@@ -1,8 +1,13 @@
 
+### design
 
-### setup
+web site source files are hosted on github.
+public web site is hosted as amazon aws s3 bucket.
+travis build system is used to deploy from github into amazon.
 
-1) master repository is this github repo
+### operation
+
+1) make changes to web site files in this github repository, and push
 
 2) after change is pushed to github, travis will deploy site to aws s3, in 1...3 minutes
 
@@ -11,6 +16,20 @@
 4) verify deploy changes in aws s3: https://s3.console.aws.amazon.com/s3/buckets/www.marinaspeech.com
 
 5) verify actual visible changes in the production site: http://www.marinaspeech.com
+
+example editing session:
+```
+git clone git@github.com:marina-speech/www.MarinaSpeech.com.git
+cd www.MarinaSpeech.com
+echo '<!-- edit-test -->' >> index.html
+git status
+git add .
+git commit -m "test edit"
+git push
+sleep 120
+wget -q -O- http://www.marinaspeech.com | grep 'edit-test'
+
+```
 
 ### aws/travis configuration
 
