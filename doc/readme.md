@@ -4,7 +4,7 @@
 
 1) master repository is this github repo
 
-2) after change is pushed to github, travis will deploy site to aws s3, in 1..3 minutes
+2) after change is pushed to github, travis will deploy site to aws s3, in 1...3 minutes
 
 3) verify deploy status in travis: https://travis-ci.org/marina-speech/www.MarinaSpeech.com
 
