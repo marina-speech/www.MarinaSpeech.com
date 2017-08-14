@@ -1,4 +1,8 @@
 
+language: node_js
+node_js:
+  - node
+  
 deploy:                         
   provider: s3                         
   access_key_id: "YOUR AWS ACCESS KEY"
