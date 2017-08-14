@@ -1,11 +1,15 @@
-
 language: node_js
 node_js:
-  - node
-  
-deploy:                         
-  provider: s3                         
-  access_key_id: "YOUR AWS ACCESS KEY"
+- node
+script:
+- echo 'script'
+deploy:
+  provider: s3
+  access_key_id: AKIAJTYARGTVL6WJVVNQ
   secret_access_key:
-    secure: "w/DlbHt1+IAMENCRYPTED"
-  bucket: "www.marinaspeech.com"
+    secure: FBjCWYx9BWjXVTBggk87pdZcAQERXtwUknCl6wXGzO2OKXmWQu5IZuSIBmhCKUt23AJJ74TJcV8TYtIxsNRMY0G1O1RSbk3PeUPC7lnSTvxaWpHPCDhaLgXOMPURb0JI2cEFBUdZW6o8yswqZN1Pky40JtmUaXpUMgixmmfIQ4Y=
+  bucket: www.marinaspeech.com
+  acl: public_read
+branches:
+  only:
+  - master
